@@ -51,6 +51,7 @@ input{
     display: none;
     color: red;
     font-family: monospace;
+    text-shadow: 1px 1px 1px rgb(53, 46, 53);
 }
 #name{
     font-family: monospace;
@@ -60,7 +61,7 @@ input{
 }
 #pass{
     color: red;
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 1px rgb(53, 46, 53);
     font-family: monospace;
     display: none;
 }
