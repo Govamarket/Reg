@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/87a66ec4e9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <fieldset>
+        <!-- <legend>Confirm</legend> -->
+        <form action="" id="form" onsubmit="submitform(event)">
+            <h1>Confirm Reg</h1>
+            <div>
+                <label for="">Username</label>
+                <input type="text" name="" id="userName" placeholder="Enter username">
+                <section id="origin">
+                    <span id="blue"><i class="fa-solid fa-check"></i></span>
+                    <span id="red"><i class="fa-solid fa-circle-xmark"></i></span>
+                    <span id="angry"><i class="fa-solid fa-face-angry"></i></span>
+                    <span id="name"><p>It must exceed 4</p></span>
+                </section>
+               
+            </div>
+            <div><br>
+                <label for="">Password</label>
+                <input type="password" id="userPassword" placeholder="Enter password">
+                <section id="origin">
+                    <span id="blue1"><i class="fa-solid fa-check"></i></span>
+                    <span id="red1"><i class="fa-solid fa-circle-xmark"></i></span>
+                    <span id="angry1"><i class="fa-solid fa-face-angry"></i></span>
+                    <span id="pass"><p>It must exceed 4</p></span>
+                </section>
+            </div><br>
+            <div>
+                <label for="">Confirmm</label>
+                <input type="password" name="userPassword" id="confirmUserPassword" placeholder="Confirm Password">
+                <section id="origin">
+                    <span id="blue2"><i class="fa-solid fa-check"></i></span>
+                    <span id="red2"><i class="fa-solid fa-circle-xmark"></i></span>
+                    <span id="angry2"><i class="fa-solid fa-face-angry"></i></span>
+                    <span id="late"><p>It must exceed 4</p></span>
+                </section>
+            </div>
+            <div class="container">
+                <center><button type="btn" id="btn">Submit</button></center>
+            </div>
+       
+        </form>
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+
+</html>

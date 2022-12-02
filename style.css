@@ -1,0 +1,124 @@
+fieldset{
+    margin-left: auto;
+    margin-right:auto;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: 1px 1px 1px red; */
+}
+body{
+    background-color: black;
+}
+
+form{
+    /* display: flex; */
+    /* gap: 1rem; */
+}
+label, legend{
+    text-shadow: 1px 1px 1px rgb(113, 101, 101);
+    font-family: monospace;
+}
+::placeholder{
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 20px;
+    text-align: center;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(68, 58, 68);
+    border-left: 1px solid rgb(100, 83, 100);
+    border-right: 1px solid rgb(38, 33, 38);
+    border-radius: 4px;
+    padding: 10px;
+    width: 300px;
+}
+
+#origin{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.fa-solid {
+    margin-right: 2rem;
+    font-size: 2;
+    display: none;
+}
+#late{
+    display: none;
+    color: red;
+    font-family: monospace;
+}
+#name{
+    font-family: monospace;
+    text-shadow: 1px 1px 1px rgb(53, 46, 53);
+    color: red;
+    display: none;
+}
+#pass{
+    color: red;
+    text-shadow: 1px 1px 1px white;
+    font-family: monospace;
+    display: none;
+}
+
+#blue, #red, #angry{
+    display: none;
+}
+
+#red1, #blue1, #angry1{
+    display: none;
+}
+
+#red2, #blue2, #angry2{
+    display: none;
+}
+
+#red{
+    color: red;
+}
+#blue{
+    color: green;
+}
+#angry{
+    color: red;
+}
+
+#blue1{
+    color: green;
+}
+#red1{
+    color: red;
+}
+#angry1{
+    color: red;
+}
+
+#blue2{
+    color: green;
+}
+#red2{
+    color: red;
+}
+#angry2{
+    color: red;
+}
+
+button{
+    background-color: blue;
+    text-shadow: 1px 1px 1px white;
+    color: #fff;
+    border: 0;
+    outline: none;
+    padding: 0.7rem;
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container{
+    padding-top: 10px;
+}
